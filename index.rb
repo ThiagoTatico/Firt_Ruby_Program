@@ -1,4 +1,4 @@
 puts "Please enter temperature in fahrenheit:"
  temperature = gets.to_f
  celsius = (temperature - 32) * 5 / 9
- puts "Temperature in celsius: #{celsius}"
+ puts "Temperature in celsius: #{celsius.round 2}"
